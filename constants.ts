@@ -33,6 +33,7 @@ const mathwaa52RawData = [
   { number: '52-08', cash: 2400, duration: 1, ltv: 2400, source: 'Bayut' },
   { number: '52-02', cash: 2600, duration: 3, ltv: 2600, source: 'Social Media Campaign' },
   { number: '52-03', cash: 2400, duration: 1, ltv: 2400, source: 'Paid Social Advertising' },
+  { number: '52-07', cash: 2600, duration: 12, ltv: 31200, source: 'Bayut' },
 ];
 
 const constructMathwaa52Apartments = (): Apartment[] => {
@@ -115,6 +116,10 @@ const mathwaa53RawData = [
   { number: '53-28', cash: 2420, duration: 12, ltv: 29040, source: 'Bayut' },
   { number: '53-32', cash: 2200, duration: 12, ltv: 26400, source: 'Bayut' },
   { number: '53-26', cash: 2860, duration: 3, ltv: 8580, source: 'Wasalt' },
+  // New Bookings
+  { number: '53-22', cash: 2420, duration: 2, ltv: 4840, source: 'Social Media Campaign' },
+  { number: '53-09', cash: 2530, duration: 12, ltv: 30360, source: 'Bayut' },
+  { number: '53-12', cash: 2750, duration: 12, ltv: 33000, source: 'Social Media Campaign' },
 ];
 
 const constructMathwaa53Apartments = (): Apartment[] => {
